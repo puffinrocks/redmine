@@ -3,7 +3,7 @@ version: '2'
 services:
 
     main:
-        image: loomchild/redmine
+        image: puffinrocks/redmine
         ports: 
             - 3000
         volumes: 
