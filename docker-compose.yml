@@ -6,8 +6,6 @@ services:
         image: puffinrocks/redmine
         ports: 
             - 3000
-        volumes: 
-            - main_data:/usr/src/redmine/files
         environment:
             - VIRTUAL_HOST
             - VIRTUAL_PORT=3000
@@ -15,6 +13,11 @@ services:
             - front
             - back
             - default
+        volumes:
+            - main_data:/usr/src/redmine/files
+        tmpfs:
+            - /run
+            - /tmp
 
 volumes:
     main_data:
