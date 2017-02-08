@@ -3,7 +3,7 @@ version: '2'
 services:
 
     main:
-        image: puffinrocks/redmine
+        image: puffinrocks/redmine:3.3.2
         ports: 
             - 3000
         environment:
