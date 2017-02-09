@@ -1,4 +1,4 @@
-FROM redmine:3.3.2
+FROM redmine:latest
 
 ENV VERSION=$REDMINE_VERSION
 
