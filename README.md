@@ -1,4 +1,4 @@
-# Redmine 
+# Redmine
 _project management and issue tracking tool_
 
 http://www.redmine.org/
